@@ -131,7 +131,7 @@ export default function Home() {
               )}
             </CardItem>
 
-            {input && (
+             
               <CardItem translateZ="10" className="w-full pt-2">
                 <div className="flex items-center justify-center gap-2 text-xs text-neutral-500 dark:text-neutral-400">
                   <span>created by @ddettaa, you can see the code by clicking the icon github</span>
@@ -148,7 +148,7 @@ export default function Home() {
                   </a>
                 </div>
               </CardItem>
-            )}
+            
           </form>
         </CardBody>
       </CardContainer>
