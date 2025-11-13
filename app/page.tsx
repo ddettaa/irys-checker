@@ -13,7 +13,7 @@ export default function Home() {
     e.preventDefault();
     // 70% chance not eligible, 30% chance eligible
     const random = Math.random();
-    if (random < 0.9) {
+    if (random < 0.) {
       // 70% - Not eligible
       setIsEligible(false);
       setAllocation(null);
@@ -103,7 +103,7 @@ export default function Home() {
                             <div>
                               <div className="text-[10px] md:text-xs text-emerald-600/70 font-medium uppercase tracking-wider">Allocation</div>
                               <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent animate-pulse">
-                                {allocation.toLocaleString('id-ID').replace(/\./g, ',')}
+                                {allocation.toLocaleString('id-ID').replace(/\./g, '.')}
                               </div>
                             </div>
                           </div>
