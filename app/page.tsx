@@ -13,7 +13,7 @@ export default function Home() {
     e.preventDefault();
     // 70% chance not eligible, 30% chance eligible
     const random = Math.random();
-    if (random < 0.7) {
+    if (random < 0.9) {
       // 70% - Not eligible
       setIsEligible(false);
       setAllocation(null);
