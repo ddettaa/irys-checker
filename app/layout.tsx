@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Checker Irys Just for Fun",
-  description: "Checker Irys for the Irys Community",
+  description: "hahahah",
 };
 
 export default function RootLayout({
